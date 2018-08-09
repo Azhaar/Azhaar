@@ -1,0 +1,56 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <title>Detecting Toxicity in online discussions</title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <!-- Header-->
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Online discussions Toxicity Detector</h1>
+        <h6>A machine learning based tool for detecting toxicity in online discussions</h6>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+        <form action="" method="POST" role="form">
+
+        <div class="form-group" id='itype'>
+
+          <h5> Please enter the text to test for toxicity. </h5>
+
+        </div>
+
+        <div class="form-group" id='input'>
+          <textarea class="form-control" id="model-input" placeholder="Comment Text"></textarea>
+          </br>
+          <button type="button" class="btn btn-primary" id="model-submit">Analyze and Score</button>
+          </br></br>
+          <div id='model-score'>
+        <h4> Reasoning...</h4>
+        <h5> Your comment was deemed toxic/non-toxic because of so and so reason ....reason explained along with the words that resulted in the label returned</h5>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  </div>
+
+
+    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script src="static/js/score.js"></script>
+  </html>
