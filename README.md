@@ -1,4 +1,4 @@
 Azhaar
 ======
 
-First Repo for Data Science Course on Coursera
+Data Incubator capstone deliverables.
